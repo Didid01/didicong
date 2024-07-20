@@ -6,7 +6,7 @@
 # Port of Endpoint
 apt-get update
 apt-get install -y wireguard resolvconf
-PUBIP="23.156.104.122"
+PUBIP="185.229.32.219"
 PORT=$(shuf -i 100-65035 -n 1)
 umask 077
 ## Gen Wireguard Keys
